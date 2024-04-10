@@ -1,8 +1,16 @@
-Comman 1 cd
-![Image](cd1.png)
+Command 1 cd
+![Image](cd.png)
 1. cd with no argument: output is not an error
 There will be no output with this input. By using the cd command, we change the current directory to the directory followed by cd.
 Since there is no argument followed by cd in this case, then it will change the current directory to the home directory, 
-which is /Users/amily in this case
+which is /Users/amily in this case. The absolute path to the working directory right before the command was run is /Users/amily
 
-2. cd with directory: output is not en error
+2. cd with a path directory: output is not en error
+No output for this command because it simply changes the working directory to the absolute path I entered, which is /Users/amily/Desktop.
+The absolute path to the working directory before the command run is /Users/amily
+
+3. cd with a path to a file: output is an error
+Because cd is the command for changing the directory. The absolute path to a file is not a directory. Thus, it will result in an erroe message.
+The abosulte path to the working directory is /Users/amily/Desktop
+
+command 2 ls
