@@ -1,5 +1,5 @@
 Command 1 cd
-![Image](Cse15l-lab-report/cd.png)
+![Image](cd.png)
 1. cd with no argument: output is not an error
 There will be no output with this input. By using the cd command, we change the current working directory to the directory followed by cd.
 Since there is no argument followed by cd in this case, then the working directory will not be changed, which is still /Users/amily in this case. 
