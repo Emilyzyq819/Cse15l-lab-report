@@ -14,3 +14,17 @@ Because cd is the command for changing the directory. The absolute path to a fil
 The abosulte path to the working directory is /Users/amily/Desktop
 
 command 2 ls
+![Image](ls.png)
+1. ls with no argument: output is not an error
+The abosulte path before the command run is /Users/amily
+ls with no argument will list all contents within the current dirctory, which is /Users/amily
+
+2. ls with path to a directory: output is not an error
+The absolute path before the command run is /Users/amily
+This will list all contents of under the directory of /Users/amily/Desktop/lecture1
+
+3. ls with a path to a file: output is not an error
+the absolute path before the command run is /Users/amily
+This will display the absolute path to the specific file
+
+command 3
